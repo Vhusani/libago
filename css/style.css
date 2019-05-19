@@ -164,8 +164,18 @@ a .signup{
     display: inline-block;
     text-align: center;
     width: 100%;
-    margin: 50px 0px;
+    margin: 100px 0px;
 }
+@media(max-width: 640px){
+.text-heading{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 50px 0px !important;
+}
+}
+
+
 .text-heading h1{
     font-size: 80px;
     font-family: Brush;
